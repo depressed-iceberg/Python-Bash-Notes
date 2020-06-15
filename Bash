@@ -1,0 +1,17 @@
+Linux commands:
+cat   cat [file]
+grep  grep [pattern] [file-directory]
+The grep command, which stands for "global regular expression print", processes text line-by-line and prints any lines that match a specified pattern.
+cut   cut [options] [file]  options: -d -f
+The cut command extracts a given number of characters or columns from a file. A delimiter is a character or set of characters that separate text strings.
+
+Redirection into a file using > 
+cat > [file]
+
+Append using >>
+cat >> [file]
+
+test <expression>
+
+Iteration:
+for i in 1 2 3; do echo $i; done
